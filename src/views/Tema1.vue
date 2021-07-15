@@ -279,7 +279,7 @@
     .row.justify-content-center.mb-4
       .col-lg-9
         
-        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -291,7 +291,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/img1.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -303,7 +303,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/icon2.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -315,7 +315,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/icon3.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -327,7 +327,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/icon4.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -339,7 +339,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/icon5.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -354,13 +354,111 @@
         
 
 
-
-
-
-
     separador
     #t_1_5.titulo-segundo
       .h2 1.5 Tabular los resultados de recolección de información
+
+    p.mb-5 Luego de organizar la matriz de datos, se procede a la tabulación de los mismos. Según Rojas Soriano (1986): 
+      b.etiqueta “La tabulación es el proceso mediante el cual los datos recopilados se organizan y concentran, con base a determinadas ideas o hipótesis, en tablas o cuadros para su tratamiento estadístico”.
+
+    .row.mb-5.justify-content-center.fondo-tarjeta--tema1-5
+      .col-lg-12
+        .row.mb-4.px-5.justify-content-center
+          .col-lg-4.mb-4
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/tema1-5/img1.svg', alt='tabulación', style="width: 400px;").mx-auto
+          .col-lg-7.p-0
+            h4.mb-4 Tabulación
+            ul.lista-ul
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 #[strong Distribución de frecuencias:] su objetivo es presentar los datos de una manera que facilite su comprensión e interpretación. La frecuencia es el número de casos en cada categoría.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 #[strong Frecuencia absoluta:] muestra la cantidad de valores absolutos que presenta cada categoría en que ha sido registrada la variable.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 #[strong Frecuencia relativa:] consiste en transformar los valores absolutos en porcentajes. Se divide la frecuencia absoluta por el total de los casos en estudio y multiplicando por cien.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 #[strong Frecuencia acumulativa:] este tipo de distribución tiene sentido en variables de tipo intervalo u ordinal, pero no en las nominales.
+        
+        .row.mb-5.px-4.justify-content-center
+          .col-lg-11.mb-4
+            p En la imagen podemos observar un ejemplo de tabulación, teniendo en cuenta la distribución de las frecuencias. (Gráfica de preguntas de opción múltiple)
+          figure.mb-5
+            img(src='@/assets/curso/tema1/tema1-5/img2.svg', alt='Grafico preguntas de opción multiple', style="width: 1030px;").mx-auto
+          .col-lg-12.px-4
+            p.mb-4 Consideraciones sobre las tablas y gráficos:
+            ul.lista-ul
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Las tablas de distribución de frecuencia y los gráficos, sirven para la presentación de los resultados de la investigación.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Le permiten al lector entender claramente la información que se desea transmitir acerca de la investigación.
+
+
+    p.mb-5 A continuación, podrá explorar las consideraciones para los tipos de recolección de datos de análisis cualitativo, variables cualitativas discretas y continuas, revisa las descripciones con atención:
+
+
+    TabsC.color-acento-botones.mb-5
+      
+      .py-3.py-md-4(titulo="Análisis cualitativo")
+        .row.justify-content-center.mt-5
+          .col-md-4.align-self-center
+            figure
+              img(src='@/assets/curso/tema1/tema1-5/img3.svg', alt='Análisis cualitativo', style="width: 350px;").mx-auto
+              
+          .col-md-6.mb-4.mb-md-0
+            p En la recolección de datos de este tipo se puede presentar generalmente varios tipos de datos, como por ejemplo:
+            ul.lista-ul.ms-4.mb-4
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Visuales.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Auditivas.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Textos escritos.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Expresiones verbales o no verbales.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Narraciones del investigador.
+            p.mb-4 Tener presente que se debe analizar cada dato (que por sí mismo tiene un valor), deducir similitudes y diferencias con otros datos y se organizarlos por categorías.
+            p.mb-4 De este análisis emergen descripciones, expresiones, temas, patrones, hipótesis y teorías, se establecerán los hallazgos que estarán fundamentas de acuerdo con las respuestas obtenidas.
+      
+      .py-3.py-md-4(titulo="Variables Cuantitativas Discretas")
+        .row.justify-content-center.mt-5
+          .col-md-4.align-self-center
+            figure
+              img(src='@/assets/curso/tema1/tema1-5/img4.svg', alt='Variables Cuantitativas Discretas', style="width: 370px;").mx-auto
+              
+          .col-md-6.mb-4.mb-md-0
+            p.mb-4 Para las variables cuantitativas discretas se pueden utilizar las mismas técnicas de tabulación de las variables cualitativas ordinales.
+            p.mb-4 Cuando el número de valores numéricos de la variable es muy grande, pueden agruparse las medidas en intervalos.
+      
+      .py-3.py-md-4(titulo="Variables Cuantitativas Continuas")
+        .row.justify-content-center.mt-5
+          .col-md-4.align-self-center
+            figure
+              img(src='@/assets/curso/tema1/tema1-5/img5.svg', alt='Variables Cuantitativas Continuas', style="width: 460px;").mx-auto
+              
+          .col-md-6.mb-4.mb-md-0
+            p.mb-4 Para este tipo de variable se sugiere agruparlas en intervalos contiguos denominados intervalos de clase. Cada intervalo de clase tiene un valor representativo, que es el valor intermedio, al que se denomina marca de clase.
+            p.mb-4 Los intervalos deben cumplir las siguientes normas:
+            ul.lista-ul.ms-4.mb-4
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Cada dato debe pertenecer solo a un intervalo.
+              li 
+                i.fas.fa-pen-square
+                p.mb-0 Todos los datos deben estar incluidos en algún intervalo.
+
+
 
 
 
