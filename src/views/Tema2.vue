@@ -29,7 +29,7 @@
                   h3.mb-1 Video en YouTube de CEC - IAEN
                   p ¿Qué es un proyecto?
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.google.com/" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=x0xsFyvcZPM" target="_blank")
                     span(style='font-weight: bold;') Enlace web
                     i.fas.fa-link
 
@@ -43,13 +43,13 @@
   
 
     .row.justify-content-center.mb-5
-      .col-lg-8
-        p.mb-4 Es la forma en que se pueden clasificar los proyectos, es un instrumento que le provee información a quien debe tomar decisiones de inversión referente al proyecto; de acuerdo con esto se contemplan diferentes variables, las cuales pueden ser de tipo tecnológico, de desarrollo, de innovación, de formación y de divulgación, entre otros; la importancia de definir una tipología de proyecto es que pueda dar respuesta a una necesidad específica determinada por un cliente.
-        .bloque-texto-b.color-secundario.p-0
-          .bloque-texto-b__texto
-            p.mb-0 En esta parte se mencionan las tipologías de los proyectos que podrían ser utilizadas por algún tipo de comunidad o nicho de mercado según su línea de intervención, todos los aspectos formales de un proyecto varían dependiendo de la naturaleza del mismo, así como las partes que lo componen. Cuando un proyecto depende de sí mismo, es decir, no hay intermediarios, permite flexibilizar, retroalimentar y ajustar tiempos o modificaciones necesarias para lograr un mejor resultado y así concretar todos los objetivos.
+      .col-lg-7
+        .bloqueTexto-c2.squareTopLeft
+          p.mb-4 Es la forma en que se pueden clasificar los proyectos, es un instrumento que le provee información a quien debe tomar decisiones de inversión referente al proyecto; de acuerdo con esto se contemplan diferentes variables, las cuales pueden ser de tipo tecnológico, de desarrollo, de innovación, de formación y de divulgación, entre otros; la importancia de definir una tipología de proyecto es que pueda dar respuesta a una necesidad específica determinada por un cliente.
+        .bloqueTexto-c.squareBottomRight
+          p.mb-0 En esta parte se mencionan las tipologías de los proyectos que podrían ser utilizadas por algún tipo de comunidad o nicho de mercado según su línea de intervención, todos los aspectos formales de un proyecto varían dependiendo de la naturaleza del mismo, así como las partes que lo componen. Cuando un proyecto depende de sí mismo, es decir, no hay intermediarios, permite flexibilizar, retroalimentar y ajustar tiempos o modificaciones necesarias para lograr un mejor resultado y así concretar todos los objetivos.
             
-      .col-lg-4.align-self-center
+      .col-lg-5.align-self-center
         figure
           img(src='@/assets/curso/tema2/tema2-1/img3.svg', alt='Imagen que acompaña tipologia del proyecto', style="width: 505px;").mx-auto
 
@@ -378,7 +378,8 @@
       .col-lg-7
         p.mb-4 Es importante reconocer cuáles son las plataformas o software para optimizar la gestión del proyecto a ejecutar, estas herramientas proporcionan la estructura, la flexibilidad y el control necesario de las actividades del proyecto y del recurso humano (equipo de trabajo) para alcanzar resultados extraordinarios a tiempo y dentro del presupuesto.
         p.mb-4 Teniendo en cuenta esto, dichas herramientas facilitan una gestión eficiente del proyecto y sus etapas de intervención inicio, planificación, ejecución, control y fin, un software de gestión de proyectos tiene la capacidad de planificar, organizar, gestionar los recursos, llevar el avance y seguimiento de estos, además de disminuir los tiempos.
-        p.mb-4 En el siguiente recurso de aprendizaje, podrás visualizar las plataformas para gestión de proyectos más reconocidas el mercado, que aporta resultados de optimización en el campo empresarial, productivo, microempresarial y educativo:
+        .bloqueTexto-cH.squareBottomRight
+          p En el siguiente recurso de aprendizaje, podrás visualizar las plataformas para gestión de proyectos más reconocidas el mercado, que aporta resultados de optimización en el campo empresarial, productivo, microempresarial y educativo:
 
 
     .tarjeta.tarjeta--azul2.p-4.mb-5
@@ -431,7 +432,8 @@
 
     .row.mb-4
       .col-lg-7
-        p.mb-4 La documentación de proyecto es importante en cada una de las etapas de este, estos documentos soportan el registro necesario para su ejecución, permite hacer seguimiento, monitoreo y trazabilidad; es importante dejar consignadas inquietudes, avances, retroalimentaciones, cortes, actas y demás acciones que un proyecto implica con el fin de determinar las puntuales y concretas dentro del marco de ejecución de cualquier proyecto.
+        .bloqueTexto-c.squareTopLeft
+          p.mb-4 La documentación de proyecto es importante en cada una de las etapas de este, estos documentos soportan el registro necesario para su ejecución, permite hacer seguimiento, monitoreo y trazabilidad; es importante dejar consignadas inquietudes, avances, retroalimentaciones, cortes, actas y demás acciones que un proyecto implica con el fin de determinar las puntuales y concretas dentro del marco de ejecución de cualquier proyecto.
         p.mb-4 Las actas son documentos escritos donde quedan registrados acuerdos, decisiones, variables que han sido tratados y adoptados en una reunión determinada de algún tema en específico, con el objetivo de poder certificar lo que ha ocurrido en la reunión y darle una validez legal.
         
         .cajon.color-acento-botones.p-4.mb-4
