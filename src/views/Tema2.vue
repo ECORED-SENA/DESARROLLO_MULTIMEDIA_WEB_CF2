@@ -33,8 +33,8 @@
                     span(style='font-weight: bold;') Enlace web
                     i.fas.fa-link
 
+        figure
       .col-lg-5.align-self-center
-        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema2/tema2-1/img1.svg', alt='Imagen que acompaña que es un proyecto', style="width: 505px;").mx-auto
 
     separador
@@ -56,7 +56,7 @@
     p.mb-4 De acuerdo con lo ya anteriormente mencionado, se puede determinar la tipología de un proyecto de la siguiente manera:
 
     .row.mb-5.justify-content-center
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
           .row.justify-content-center.mb-4.mt-2
             .col-7
@@ -66,7 +66,7 @@
           h4.mb-5.text-center Proyecto <br> tecnológico
           p.text-medium.text-center(style="margin-bottom:100px;") En este tipo de proyectos se espera un producto nuevo o una mejora, estos por lo general surgen del análisis de otros proyectos, aportando a la solución de errores o fallas, para ser corregidas.
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
           .row.justify-content-center.mb-4.mt-2
             .col-7
@@ -76,7 +76,7 @@
           h4.mb-5.text-center Proyecto <br> productivo
           p.text-medium.text-center(style="margin-bottom:50px;") Estos son proyectos que buscan ser viables y generar rentabilidad económica con el fin de obtener ganancias. Por lo generar quienes generan estos proyectos son empresa o particulares que están interesados en lograr beneficios económicos.
       
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
           .row.justify-content-center.mb-4.mt-2
             .col-7
@@ -88,7 +88,7 @@
     
     
     .row.mb-5.justify-content-center
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
           .row.justify-content-center.mb-4.mt-2
             .col-7
@@ -98,7 +98,7 @@
           h4.mb-5.text-center Proyecto <br> comunitario
           p.text-medium.text-center(style="margin-bottom: 90px;") Este tipo de proyectos buscan traer beneficios en un contexto o comunidad determinada, buscado dar solución a problemáticas particulares y necesidades priorizadas.
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
           .row.justify-content-center.mb-4.mt-2
             .col-7
@@ -108,7 +108,7 @@
           h4.mb-5.text-center Proyecto <br>de investigación
           p.text-medium.text-center(style="margin-bottom:20px;") Son proyectos con un foco investigativo, basado en una  metodológica determinada, por lo general académico se dan en el ámbito académico entregando un  informe especializado, realizando experimentos o revisiones documentales según el área a intervenir.
       
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
           .row.justify-content-center.mb-4.mt-2
             .col-7
@@ -155,7 +155,7 @@
             .col-md-10.mb-4.mb-md-0
               p En esta etapa se revisan los resultados del proyecto tras su ejecución. Es una etapa de control y de información, sustentada en la idea del mejoramiento y acumulación de factores de éxito a lo largo del tiempo.
       .col-lg-5.align-self-center
-        figure.mb-4(data-aos="fade-left")
+        figure.mb-4
             img(src='@/assets/curso/tema2/tema2-3/img2.svg', alt='imagen que acompaña las cuatro etapas de los proyectos', style="width: 484px;").mx-auto
 
 
@@ -257,15 +257,15 @@
             p.mb-4 Los recursos pueden clasificarse en:
           
     .row.justify-content-center
-      .col-lg-5(data-aos="flip-left")
-        .tarjeta-avatar-b.mb-4
+      .col-lg-5
+        .tarjeta-avatar-b.mb-4(data-aos="flip-left")
           img(src='@/assets/curso/tema2/tema2-3/icon1.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
             .p-4(style='padding-top: 45px !important; padding-bottom: 27px !important;')
               h4 Recursos físicos
               p son tangibles, tiene que ver con instalaciones, oficinas, bodegas, terrenos, maquinaria, equipos y herramientas. 
-      .col-lg-5(data-aos="flip-left")
-        .tarjeta-avatar-b.mb-4
+      .col-lg-5
+        .tarjeta-avatar-b.mb-4(data-aos="flip-left")
           img(src='@/assets/curso/tema2/tema2-3/icon2.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
             .p-4
@@ -274,23 +274,23 @@
     .row.justify-content-center
       .col-lg-5
         .row
-          .col-lg-12(data-aos="flip-left")
-            .tarjeta-avatar-b.mb-4
+          .col-lg-12
+            .tarjeta-avatar-b.mb-4(data-aos="flip-left")
               img(src='@/assets/curso/tema2/tema2-3/icon3.svg' alt='AvatarTop')
               .tarjeta.tarjeta--custom
                 .p-4
                   h4 Recursos humanos
                   p son los empleados quienes están encargados de ejecutar una labor y se diferencian por su rol, conocimiento, habilidades, experiencia y capacidades personales.
-          .col-lg-12(data-aos="flip-left")
-            .tarjeta-avatar-b.mb-5
+          .col-lg-12
+            .tarjeta-avatar-b.mb-5(data-aos="flip-left")
               img(src='@/assets/curso/tema2/tema2-3/icon5.svg' alt='AvatarTop')
               .tarjeta.tarjeta--custom
                 .p-4
                   h4 Recursos tecnológicos
                   p son todos aquellos que le dan un plus a la organización de acuerdo con su función “software”, se pueden catalogar como sistemas de organización, procesos, técnicas e información.
         
-      .col-lg-5(data-aos="flip-left")
-        .tarjeta-avatar-b.mb-5
+      .col-lg-5
+        .tarjeta-avatar-b.mb-5(data-aos="flip-left")
           img(src='@/assets/curso/tema2/tema2-3/icon4.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
             .p-4
@@ -317,7 +317,7 @@
           img(src='@/assets/curso/tema2/tema2-4/img1.svg', alt='imagen que acompaña', style="width: 505px;").mx-auto
 
     .row.justify-content-center
-      .col-md-10.mb-4(data-aos="zoom-in")
+      .col-md-10.mb-4
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 1
@@ -325,7 +325,7 @@
             h4.mb-4 Nombre del Proyecto / Nombre del Cliente
             p En este paso se puede usar el nombre que ya tiene el proyecto para dar claridad a los receptores del informe de proyecto, es importante incluir la fecha de realización, esto con el fin de no truncar la información del informe con posteriores tareas similares a estas.
       
-      .col-md-10.mb-4(data-aos="zoom-in")
+      .col-md-10.mb-4
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 2
@@ -334,14 +334,14 @@
             p.mb-4 En esta etapa se muestra cual es el estado del proyecto si está en desarrollo, con algún aplazamiento, si presenta alguna novedad o en su defecto presenta una prórroga en su ejecución.
             p.mb-4 Aquí se pueden utilizar herramientas tecnológicas de gestión de proyectos las cuales permitan tener una información precisa del estado actual, y que por intermedio de un método de identificación el cual puede ser por colores (verde, en ejecución y al día; amarillo, con novedades e interrupciones; y rojo, con retraso). Muestre un panorama en tiempo real de cómo se encuentra el proceso.
             p Este ítem permite evidenciar y exponer próximas tareas y actividades del proyecto.
-      .col-md-10.mb-4(data-aos="zoom-in")
+      .col-md-10.mb-4
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 3
           .px-4
             h4.mb-4 Breve resumen del informe de estado del proyecto
             p En este paso se plantea realizar un resumen del informe de estado del proyecto el cual es importante que sea breve, el propósito de esta acción es brindar a los lectores, un escenario que resalta los puntos más relevantes del proyecto, alcances y metas.
-      .col-md-10.mb-4(data-aos="zoom-in")
+      .col-md-10.mb-4
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 4
@@ -349,14 +349,14 @@
             h4.mb-4 Determinar tareas claves para destacar en el informe del estado actual del proyecto
             p.mb-4 En este paso se debe elegir acciones puntuales del proceso cronológicamente, estado actual y prospectiva, destacar las actividades cuáles pueden ser por semana, quincenal, mensual y trimestral; aquí se puede destacar un resultado o logro importante en la etapa de ejecución.
             p En este punto es donde se puede prever cualquier problema que obstaculice la ejecución del proyecto.
-      .col-md-10.mb-4(data-aos="zoom-in")
+      .col-md-10.mb-4
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 5
           .px-4
             h4.mb-4 Facilitar los enlaces de indagación y búsqueda o documentos soporte de investigación
             p Es necesario que todo informe de proyecto esté respaldado por un marco de referencia específico, el cual sea escrito (documental, bibliográfico), o con base en lo expresado por personas consultadas o por datos extraídos de una realidad que ha sido investigada mediante un método y unas técnicas suficientemente confiables.
-      .col-md-10.mb-4(data-aos="zoom-in")
+      .col-md-10.mb-4
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 6

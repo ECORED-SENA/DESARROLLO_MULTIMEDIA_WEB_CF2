@@ -20,8 +20,8 @@
         .cajon.color-primario.p-4.mb-4(style="background-color: #b2ebf25c")
           p.mb-0 El análisis de requerimientos busca describir las necesidades, por lo cual es imperativo contar con información de primera mano, esta se puede obtener mediante entrevistas con el cliente y obteniendo documentación existente. 
         p.mb-0 Para que la metodología sea efectiva en los puntos enunciados se definieron las siguientes etapas que se deben desarrollar para la correcta identificación de necesidades de los clientes: 
-      .col-lg-5.align-self-center
-        figure(data-aos="fade-left")
+      .col-lg-5.align-self-center(data-aos="fade-left")
+        figure
             img(src='@/assets/curso/tema1/img1.svg', alt='', style="width: 505px;").mx.auto
 
 
@@ -277,9 +277,8 @@
     p.mb-4 Para aplicar un instrumento de recolección de datos según Castro Márquez (2016) es necesario:
 
     .row.justify-content-center.mb-4
-      .col-lg-9
-        
-        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
+      .col-lg-9(data-aos='fade-up')
+        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -291,7 +290,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/img1.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -303,7 +302,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/icon2.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -315,7 +314,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/icon3.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -327,7 +326,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/icon4.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
@@ -339,7 +338,7 @@
                 figure.mb-1
                   img(src='@/assets/curso/tema1/tema1-4/icon5.svg', alt='Avatar', style="width:200px;").mx-auto
         
-        .row.justify-content-center.px-3.py-2.mb-3(data-aos="fade-up" style="background-color:#CBDEF4; border-radius:20px;")
+        .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
