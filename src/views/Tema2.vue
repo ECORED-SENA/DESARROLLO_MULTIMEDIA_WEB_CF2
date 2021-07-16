@@ -33,8 +33,9 @@
                     span(style='font-weight: bold;') Enlace web
                     i.fas.fa-link
 
-        figure
+        
       .col-lg-5.align-self-center
+        figure
           img(src='@/assets/curso/tema2/tema2-1/img1.svg', alt='Imagen que acompaña que es un proyecto', style="width: 505px;").mx-auto
 
     separador
