@@ -20,7 +20,7 @@
         .cajon.color-primario.p-4.mb-4(style="background-color: #b2ebf25c")
           p.mb-0 El análisis de requerimientos busca describir las necesidades, por lo cual es imperativo contar con información de primera mano, esta se puede obtener mediante entrevistas con el cliente y obteniendo documentación existente. 
         p.mb-0 Para que la metodología sea efectiva en los puntos enunciados se definieron las siguientes etapas que se deben desarrollar para la correcta identificación de necesidades de los clientes: 
-      .col-lg-5.align-self-center(data-aos="fade-left")
+      .col-lg-5.align-self-center
         figure
             img(src='@/assets/curso/tema1/img1.svg', alt='', style="width: 505px;").mx.auto
 

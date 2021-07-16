@@ -174,12 +174,12 @@
                 b-none esta fase se inicia cuando ya se ha definido la idea o necesidad de los usuarios para la cual se desarrollará el proyecto, luego se planifican los medios y contenidos que pueden utilizarse; es decir, textos, imágenes, animaciones, audio, video, entre otros.
               p.mb-0 Luego de la planificación se determinan los tiempos de creación de contenidos, se estima el tiempo real del proyecto, las actividades individuales y sus recursos, teniendo en cuenta esto se diseña el presupuesto.
             .col-md-5.align-self-center
-              figure(data-aos="fade-left")
+              figure
                 img(src='@/assets/curso/tema2/tema2-3/img.png', alt='Texto que describa la imagen', style='width:295px;').mx-auto
           
           .row
             .col-md-5.align-self-center.mb-4.mb-md-0
-              figure(data-aos="fade-right")
+              figure
                 img(src='@/assets/curso/tema2/tema2-3/img4.svg', alt='Texto que describa la imagen', style='width:295px;').mx-auto
                 
             .col-md-7
@@ -197,12 +197,12 @@
               p Una vez realizado el guion se debe hacer la revisión y evaluación de los materiales, si algo no funciona se debe cambiar o corregir.
           
             .col-md-5.align-self-center
-              figure(data-aos="fade-left")
+              figure
                 img(src='@/assets/curso/tema2/tema2-3/img5.svg', alt='Texto que describa la imagen', style='width:295px;').mx-auto
           
           .row
             .col-md-5.align-self-center
-              figure(data-aos="fade-right")
+              figure
                 img(src='@/assets/curso/tema2/tema2-3/img6.svg', alt='Texto que describa la imagen', style='width:295px;').mx-auto
                 
             .col-md-7.mb-4.mb-md-0
@@ -217,7 +217,7 @@
                 b-none ya con el proyecto en marcha se hace un proceso para hacer nuevas evaluaciones al material, con el fin de detectar posibles errores de ejecución y diseño.
           
             .col-md-5.align-self-center
-              figure(data-aos="fade-left")
+              figure
                 img(src='@/assets/curso/tema2/tema2-3/img7.svg', alt='Texto que describa la imagen', style='width:295px;').mx-auto
 
     p.mb-4 Al final de las etapas nombradas se recomienda hacer una prueba piloto, la cual permitirá observar si el proyecto es funcional, si se adapta a los intereses y necesidades, si se consiguen los objetivos planeados, entre otros.
