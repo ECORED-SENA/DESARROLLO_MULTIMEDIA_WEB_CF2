@@ -259,14 +259,14 @@
           
     .row.justify-content-center
       .col-lg-5
-        .tarjeta-avatar-b.mb-4(data-aos="flip-left")
+        .tarjeta-avatar-b.mb-4
           img(src='@/assets/curso/tema2/tema2-3/icon1.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
             .p-4(style='padding-top: 45px !important; padding-bottom: 27px !important;')
               h4 Recursos físicos
               p son tangibles, tiene que ver con instalaciones, oficinas, bodegas, terrenos, maquinaria, equipos y herramientas. 
       .col-lg-5
-        .tarjeta-avatar-b.mb-4(data-aos="flip-left")
+        .tarjeta-avatar-b.mb-4
           img(src='@/assets/curso/tema2/tema2-3/icon2.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
             .p-4
@@ -276,14 +276,14 @@
       .col-lg-5
         .row
           .col-lg-12
-            .tarjeta-avatar-b.mb-4(data-aos="flip-left")
+            .tarjeta-avatar-b.mb-4
               img(src='@/assets/curso/tema2/tema2-3/icon3.svg' alt='AvatarTop')
               .tarjeta.tarjeta--custom
                 .p-4
                   h4 Recursos humanos
                   p son los empleados quienes están encargados de ejecutar una labor y se diferencian por su rol, conocimiento, habilidades, experiencia y capacidades personales.
           .col-lg-12
-            .tarjeta-avatar-b.mb-5(data-aos="flip-left")
+            .tarjeta-avatar-b.mb-5
               img(src='@/assets/curso/tema2/tema2-3/icon5.svg' alt='AvatarTop')
               .tarjeta.tarjeta--custom
                 .p-4
@@ -291,7 +291,7 @@
                   p son todos aquellos que le dan un plus a la organización de acuerdo con su función “software”, se pueden catalogar como sistemas de organización, procesos, técnicas e información.
         
       .col-lg-5
-        .tarjeta-avatar-b.mb-5(data-aos="flip-left")
+        .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema2/tema2-3/icon4.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
             .p-4
@@ -400,28 +400,28 @@
                 p.mb-0 #[strong Done:] tareas completadas.
           .col-md-5.align-self-center.mb-5
             figure
-              img(src='@/assets/curso/tema2/tema2-5/img2.svg', alt='Texto que describa la imagen', style='width: 565px;').mx-auto
+              img(src='@/assets/curso/tema2/tema2-5/img2.svg', alt='Imagen de software trello', style='width: 565px;').mx-auto
         
         .row
           .col-md-7.mb-4.mb-md-0
             p Es una herramienta gratuita de Google Docs que consta de hojas de cálculo en línea, es muy similar a las páginas de Excel, puede usar fórmulas, filas y columnas, permite analizar la información de una forma precisa y de fácil manipulación, un de los aspectos más importantes es que permite compartir y modificar la información relevante del proyecto de manera colaborativa por uno o varios usuarios en el mismo momento.
           .col-md-5
             figure
-              img(src='@/assets/curso/tema2/tema2-5/img3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/tema2-5/img3.svg', alt='Imagen de software Google Sheets')
               
         .row
           .col-md-7.mb-4.mb-md-0
             p Permite  organizar la información del proyecto un solo lugar, correos electrónicos, calendario, hojas de cálculo, tareas y actividades, línea de tiempo, tableros, archivos compartidos,  incluye diversas funciones para aumentar la productividad de los equipos de trabajo, es compatible con plataformas web, Android e IOS.
           .col-md-5
             figure
-              img(src='@/assets/curso/tema2/tema2-5/img4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/tema2-5/img4.svg', alt='Imagen de software Asana')
               
         .row
           .col-md-7.mb-4.mb-md-0
             p Es un software para la gestión de proyectos, se puede hacer seguimiento, permite el trabajo colaborativo, integra las acciones del proyecto, usa colores para resaltar información crítica, avances y cortes, también permite asignar recursos con diagramas de Gantt, planificar presupuestos y crear diagramas para visualizar datos del proyecto. Se puede instalar local o usar en la nube.
           .col-md-5
             figure
-              img(src='@/assets/curso/tema2/tema2-5/img5.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/tema2-5/img5.svg', alt='Imagen de software Microsoft Project')
               
 
     p.mb-4 A nivel empresarial es de gran importancia que se adapten a este tipo de escenarios y softwares, de acuerdo con su eficacia y funcionalidades, para que las mismas puedan avanzar correctamente y llevar a cabo de manera exitosa todos sus proyectos, independientemente de las situaciones adversas que se presenten.
