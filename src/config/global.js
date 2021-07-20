@@ -414,8 +414,8 @@ export default {
         centro: ' Centro de Diseño y metrología Regional Distrito Capital',
       },
       {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Edición y corrección de estilo',
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
         centro:
           'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
       },
@@ -445,13 +445,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Emily Bautista',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

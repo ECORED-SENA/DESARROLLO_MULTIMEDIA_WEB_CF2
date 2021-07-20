@@ -32,11 +32,10 @@
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=x0xsFyvcZPM" target="_blank")
                     span(style='font-weight: bold;') Enlace web
                     i.fas.fa-link
-
         
       .col-lg-5.align-self-center
-        figure
-          img(src='@/assets/curso/tema2/tema2-1/img1.svg', alt='Imagen que acompaña que es un proyecto', style="width: 505px;").mx-auto
+        figure(data-aos='fade-left')
+          img(src='@/assets/curso/tema2/tema2-1/img1.png', alt='Imagen que acompaña que es un proyecto', style="width: 505px;").mx-auto
 
     separador
     #t_2_2.titulo-segundo
@@ -75,7 +74,7 @@
                 img(src='@/assets/curso/tema2/tema2-1/icon2.svg', alt='productivo productivo', style="width:86px;").mx-auto
 
           h4.mb-5.text-center Proyecto <br> productivo
-          p.text-medium.text-center(style="margin-bottom:50px;") Estos son proyectos que buscan ser viables y generar rentabilidad económica con el fin de obtener ganancias. Por lo generar quienes generan estos proyectos son empresa o particulares que están interesados en lograr beneficios económicos.
+          p.text-medium.text-center(style="margin-bottom:50px;") Estos son proyectos que buscan ser viables y generar rentabilidad económica con el fin de obtener ganancias. Por lo general quienes generan estos proyectos son empresa o particulares que están interesados en lograr beneficios económicos.
       
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
@@ -85,7 +84,7 @@
                 img(src='@/assets/curso/tema2/tema2-1/icon3.svg', alt='proyecto social', style="width:86px;").mx-auto
 
           h4.mb-5.text-center Proyecto <br> público o social
-          p.text-medium.text-center(style="margin-bottom: 3px;") Estos son proyectos que buscan generar un impacto social en determinado contexto o población, no necesariamente con fines económicos, por lo general cuentan con promotores como ONG, Empresa, Organismos multilaterales o el Estado, con un fin de agregar valor en desde la perspectiva de responsabilidad social.
+          p.text-medium.text-center(style="margin-bottom: 3px;") Estos son proyectos que buscan generar un impacto social en determinado contexto o población, no necesariamente con fines económicos, por lo general cuentan con promotores como ONG, Empresa, Organismos multilaterales o el Estado, con un fin de agregar valor desde la perspectiva de responsabilidad social.
     
     
     .row.mb-5.justify-content-center
@@ -156,7 +155,7 @@
             .col-md-10.mb-4.mb-md-0
               p En esta etapa se revisan los resultados del proyecto tras su ejecución. Es una etapa de control y de información, sustentada en la idea del mejoramiento y acumulación de factores de éxito a lo largo del tiempo.
       .col-lg-5.align-self-center
-        figure.mb-4
+        figure.mb-4(data-aos='fade-left')
             img(src='@/assets/curso/tema2/tema2-3/img2.svg', alt='imagen que acompaña las cuatro etapas de los proyectos', style="width: 484px;").mx-auto
 
 
@@ -174,12 +173,12 @@
                 b-none esta fase se inicia cuando ya se ha definido la idea o necesidad de los usuarios para la cual se desarrollará el proyecto, luego se planifican los medios y contenidos que pueden utilizarse; es decir, textos, imágenes, animaciones, audio, video, entre otros.
               p.mb-0 Luego de la planificación se determinan los tiempos de creación de contenidos, se estima el tiempo real del proyecto, las actividades individuales y sus recursos, teniendo en cuenta esto se diseña el presupuesto.
             .col-md-5.align-self-center
-              figure
+              figure(data-aos='fade-left')
                 img(src='@/assets/curso/tema2/tema2-3/img.png', alt='Texto que describa la imagen', style='width:295px;').mx-auto
           
           .row
             .col-md-5.align-self-center.mb-4.mb-md-0
-              figure
+              figure(data-aos='fade-right')
                 img(src='@/assets/curso/tema2/tema2-3/img4.svg', alt='Texto que describa la imagen', style='width:295px;').mx-auto
                 
             .col-md-7
@@ -197,12 +196,12 @@
               p Una vez realizado el guion se debe hacer la revisión y evaluación de los materiales, si algo no funciona se debe cambiar o corregir.
           
             .col-md-5.align-self-center
-              figure
+              figure(data-aos='fade-left')
                 img(src='@/assets/curso/tema2/tema2-3/img5.svg', alt='Texto que describa la imagen', style='width:295px;').mx-auto
           
           .row
             .col-md-5.align-self-center
-              figure
+              figure(data-aos='fade-right')
                 img(src='@/assets/curso/tema2/tema2-3/img6.svg', alt='Texto que describa la imagen', style='width:295px;').mx-auto
                 
             .col-md-7.mb-4.mb-md-0
@@ -217,8 +216,8 @@
                 b-none ya con el proyecto en marcha se hace un proceso para hacer nuevas evaluaciones al material, con el fin de detectar posibles errores de ejecución y diseño.
           
             .col-md-5.align-self-center
-              figure
-                img(src='@/assets/curso/tema2/tema2-3/img7.svg', alt='Texto que describa la imagen', style='width:295px;').mx-auto
+              figure(data-aos='fade-left')
+                img(src='@/assets/curso/tema2/tema2-3/img7.png', alt='Texto que describa la imagen', style='width:295px;').mx-auto
 
     p.mb-4 Al final de las etapas nombradas se recomienda hacer una prueba piloto, la cual permitirá observar si el proyecto es funcional, si se adapta a los intereses y necesidades, si se consiguen los objetivos planeados, entre otros.
     
@@ -258,14 +257,14 @@
             p.mb-4 Los recursos pueden clasificarse en:
           
     .row.justify-content-center
-      .col-lg-5
+      .col-lg-5(data-aos='flip-left')
         .tarjeta-avatar-b.mb-4
           img(src='@/assets/curso/tema2/tema2-3/icon1.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
             .p-4(style='padding-top: 45px !important; padding-bottom: 27px !important;')
               h4 Recursos físicos
               p son tangibles, tiene que ver con instalaciones, oficinas, bodegas, terrenos, maquinaria, equipos y herramientas. 
-      .col-lg-5
+      .col-lg-5(data-aos='flip-left')
         .tarjeta-avatar-b.mb-4
           img(src='@/assets/curso/tema2/tema2-3/icon2.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
@@ -275,14 +274,14 @@
     .row.justify-content-center
       .col-lg-5
         .row
-          .col-lg-12
+          .col-lg-12(data-aos='flip-left')
             .tarjeta-avatar-b.mb-4
               img(src='@/assets/curso/tema2/tema2-3/icon3.svg' alt='AvatarTop')
               .tarjeta.tarjeta--custom
                 .p-4
                   h4 Recursos humanos
                   p son los empleados quienes están encargados de ejecutar una labor y se diferencian por su rol, conocimiento, habilidades, experiencia y capacidades personales.
-          .col-lg-12
+          .col-lg-12(data-aos='flip-left')
             .tarjeta-avatar-b.mb-5
               img(src='@/assets/curso/tema2/tema2-3/icon5.svg' alt='AvatarTop')
               .tarjeta.tarjeta--custom
@@ -290,7 +289,7 @@
                   h4 Recursos tecnológicos
                   p son todos aquellos que le dan un plus a la organización de acuerdo con su función “software”, se pueden catalogar como sistemas de organización, procesos, técnicas e información.
         
-      .col-lg-5
+      .col-lg-5(data-aos='flip-left')
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema2/tema2-3/icon4.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
@@ -315,10 +314,10 @@
         p Prestar atención a los pasos para desarrollar un informe de proyecto que se presentan en el siguiente recurso de aprendizaje:
       .col-lg-5.align-self-center
         figure
-          img(src='@/assets/curso/tema2/tema2-4/img1.svg', alt='imagen que acompaña', style="width: 505px;").mx-auto
+          img(src='@/assets/curso/tema2/tema2-4/img1.png', alt='imagen que acompaña', style="width: 505px;").mx-auto
 
     .row.justify-content-center
-      .col-md-10.mb-4
+      .col-md-10.mb-4(data-aos='zoom-in')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 1
@@ -326,7 +325,7 @@
             h4.mb-4 Nombre del Proyecto / Nombre del Cliente
             p En este paso se puede usar el nombre que ya tiene el proyecto para dar claridad a los receptores del informe de proyecto, es importante incluir la fecha de realización, esto con el fin de no truncar la información del informe con posteriores tareas similares a estas.
       
-      .col-md-10.mb-4
+      .col-md-10.mb-4(data-aos='zoom-in')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 2
@@ -335,14 +334,14 @@
             p.mb-4 En esta etapa se muestra cual es el estado del proyecto si está en desarrollo, con algún aplazamiento, si presenta alguna novedad o en su defecto presenta una prórroga en su ejecución.
             p.mb-4 Aquí se pueden utilizar herramientas tecnológicas de gestión de proyectos las cuales permitan tener una información precisa del estado actual, y que por intermedio de un método de identificación el cual puede ser por colores (verde, en ejecución y al día; amarillo, con novedades e interrupciones; y rojo, con retraso). Muestre un panorama en tiempo real de cómo se encuentra el proceso.
             p Este ítem permite evidenciar y exponer próximas tareas y actividades del proyecto.
-      .col-md-10.mb-4
+      .col-md-10.mb-4(data-aos='zoom-in')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 3
           .px-4
             h4.mb-4 Breve resumen del informe de estado del proyecto
             p En este paso se plantea realizar un resumen del informe de estado del proyecto el cual es importante que sea breve, el propósito de esta acción es brindar a los lectores, un escenario que resalta los puntos más relevantes del proyecto, alcances y metas.
-      .col-md-10.mb-4
+      .col-md-10.mb-4(data-aos='zoom-in')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 4
@@ -350,14 +349,14 @@
             h4.mb-4 Determinar tareas claves para destacar en el informe del estado actual del proyecto
             p.mb-4 En este paso se debe elegir acciones puntuales del proceso cronológicamente, estado actual y prospectiva, destacar las actividades cuáles pueden ser por semana, quincenal, mensual y trimestral; aquí se puede destacar un resultado o logro importante en la etapa de ejecución.
             p En este punto es donde se puede prever cualquier problema que obstaculice la ejecución del proyecto.
-      .col-md-10.mb-4
+      .col-md-10.mb-4(data-aos='zoom-in')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 5
           .px-4
             h4.mb-4 Facilitar los enlaces de indagación y búsqueda o documentos soporte de investigación
             p Es necesario que todo informe de proyecto esté respaldado por un marco de referencia específico, el cual sea escrito (documental, bibliográfico), o con base en lo expresado por personas consultadas o por datos extraídos de una realidad que ha sido investigada mediante un método y unas técnicas suficientemente confiables.
-      .col-md-10.mb-4
+      .col-md-10.mb-4(data-aos='zoom-in')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 6
@@ -374,7 +373,7 @@
     .row
       .col-lg-5.align-self-center.mb-5
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/tema2-5/img1.svg', alt='Herramientas tecnológicas de seguimiento y monitoreo para proyectos', style='width:505px;').mx-auto
+          img(src='@/assets/curso/tema2/tema2-5/img1.png', alt='Herramientas tecnológicas de seguimiento y monitoreo para proyectos', style='width:505px;').mx-auto
 
       .col-lg-7
         p.mb-4 Es importante reconocer cuáles son las plataformas o software para optimizar la gestión del proyecto a ejecutar, estas herramientas proporcionan la estructura, la flexibilidad y el control necesario de las actividades del proyecto y del recurso humano (equipo de trabajo) para alcanzar resultados extraordinarios a tiempo y dentro del presupuesto.
@@ -400,28 +399,28 @@
                 p.mb-0 #[strong Done:] tareas completadas.
           .col-md-5.align-self-center.mb-5
             figure
-              img(src='@/assets/curso/tema2/tema2-5/img2.svg', alt='Imagen de software trello', style='width: 565px;').mx-auto
+              img(src='@/assets/curso/tema2/tema2-5/img2.jpg', alt='Imagen de software trello', style='width: 565px;').mx-auto
         
         .row
           .col-md-7.mb-4.mb-md-0
             p Es una herramienta gratuita de Google Docs que consta de hojas de cálculo en línea, es muy similar a las páginas de Excel, puede usar fórmulas, filas y columnas, permite analizar la información de una forma precisa y de fácil manipulación, un de los aspectos más importantes es que permite compartir y modificar la información relevante del proyecto de manera colaborativa por uno o varios usuarios en el mismo momento.
           .col-md-5
             figure
-              img(src='@/assets/curso/tema2/tema2-5/img3.svg', alt='Imagen de software Google Sheets')
+              img(src='@/assets/curso/tema2/tema2-5/img3.jpg', alt='Imagen de software Google Sheets')
               
         .row
           .col-md-7.mb-4.mb-md-0
             p Permite  organizar la información del proyecto un solo lugar, correos electrónicos, calendario, hojas de cálculo, tareas y actividades, línea de tiempo, tableros, archivos compartidos,  incluye diversas funciones para aumentar la productividad de los equipos de trabajo, es compatible con plataformas web, Android e IOS.
           .col-md-5
             figure
-              img(src='@/assets/curso/tema2/tema2-5/img4.svg', alt='Imagen de software Asana')
+              img(src='@/assets/curso/tema2/tema2-5/img4.jpg', alt='Imagen de software Asana')
               
         .row
           .col-md-7.mb-4.mb-md-0
             p Es un software para la gestión de proyectos, se puede hacer seguimiento, permite el trabajo colaborativo, integra las acciones del proyecto, usa colores para resaltar información crítica, avances y cortes, también permite asignar recursos con diagramas de Gantt, planificar presupuestos y crear diagramas para visualizar datos del proyecto. Se puede instalar local o usar en la nube.
           .col-md-5
             figure
-              img(src='@/assets/curso/tema2/tema2-5/img5.svg', alt='Imagen de software Microsoft Project')
+              img(src='@/assets/curso/tema2/tema2-5/img5.jpg', alt='Imagen de software Microsoft Project')
               
 
     p.mb-4 A nivel empresarial es de gran importancia que se adapten a este tipo de escenarios y softwares, de acuerdo con su eficacia y funcionalidades, para que las mismas puedan avanzar correctamente y llevar a cabo de manera exitosa todos sus proyectos, independientemente de las situaciones adversas que se presenten.
@@ -464,7 +463,7 @@
             p.mb-0 En la mayoría de las ocasiones se cuenta con un comité de seguimiento, interventoría y/o supervisión para darle seguimiento y alcance a los alcances del proyecto.
 
       .col-lg-5.align-self-center
-          figure
+          figure(data-aos='fade-left')
             img(src='@/assets/curso/tema2/tema2-6/img.png', alt='Diseño de actas e informes para documentar el proyecto', style="width:505px;").mx-auto
 
 

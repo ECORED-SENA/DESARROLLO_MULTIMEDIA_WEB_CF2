@@ -21,8 +21,8 @@
           p.mb-0 El análisis de requerimientos busca describir las necesidades, por lo cual es imperativo contar con información de primera mano, esta se puede obtener mediante entrevistas con el cliente y obteniendo documentación existente. 
         p.mb-0 Para que la metodología sea efectiva en los puntos enunciados se definieron las siguientes etapas que se deben desarrollar para la correcta identificación de necesidades de los clientes: 
       .col-lg-5.align-self-center
-        figure
-            img(src='@/assets/curso/tema1/img1.svg', alt='', style="width: 505px;").mx.auto
+        figure(data-aos='fade-left')
+            img(src='@/assets/curso/tema1/img1.png', alt='', style="width: 505px;").mx.auto
 
 
     TabsB.color-acento-contenido.mb-5
@@ -260,7 +260,7 @@
       
       .col-lg-5.mb-5
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/tema1/tema1-3/img1.svg', alt='', style='width:505px;').mx-auto
+          img(src='@/assets/curso/tema1/tema1-3/img1.png', alt='', style='width:505px;').mx-auto
 
     p(style="margin-bottom:80px;") En la imagen se puede apreciar cómo organizar la información para la recolección de información. 
 
@@ -278,6 +278,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-9(data-aos='fade-up')
+
         .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
             figure.mb-2
@@ -288,7 +289,7 @@
                 p.mb-0 Conocer qué es lo que se va a preguntar o determinar en función del problema planteado, de las variables presentes.
               .col-lg-2.col-md-3.align-self-center.p-0
                 figure.mb-1
-                  img(src='@/assets/curso/tema1/tema1-4/img1.svg', alt='Avatar', style="width:200px;").mx-auto
+                  img(src='@/assets/curso/tema1/tema1-4/img1.png', alt='Avatar', style="width:100px;").mx-auto
         
         .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
@@ -296,11 +297,11 @@
               img(src='@/assets/curso/tema1/tema1-4/icon1.svg', alt='Avatar', style="width:60px").mx-auto
           .col-lg-11.align-self-center
             .row
-              .col-lg-10.col-md-9.align-self-center
+              .col-lg-10.col-md-9.align-self-center.pe-0
                 p.mb-0 Se debe determinar cuál o cuáles son los instrumentos más idóneos para encontrar las respuestas que interesan.
-              .col-lg-2.col-md-3.align-self-center.p-0
+              .col-lg-2.col-md-3.align-self-center
                 figure.mb-1
-                  img(src='@/assets/curso/tema1/tema1-4/icon2.svg', alt='Avatar', style="width:200px;").mx-auto
+                  img(src='@/assets/curso/tema1/tema1-4/img2.png', alt='Avatar', style="width:200px;").mx-auto
         
         .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
@@ -310,9 +311,9 @@
             .row
               .col-lg-10.col-md-9.align-self-center
                 p.mb-0 Se debe conocer ese, o esos instrumentos en particular, cómo se aplica, cómo se elabora, el número de preguntas, etc.
-              .col-lg-2.col-md-3.align-self-center.p-0
+              .col-lg-2.col-md-3.align-self-center
                 figure.mb-1
-                  img(src='@/assets/curso/tema1/tema1-4/icon3.svg', alt='Avatar', style="width:200px;").mx-auto
+                  img(src='@/assets/curso/tema1/tema1-4/img3.png', alt='Avatar', style="width:200px;").mx-auto
         
         .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
@@ -324,7 +325,7 @@
                 p.mb-0 Es recomendable una aplicación previa a un número reducido de entrevistados al objeto de poder corregir cualquier falla.
               .col-lg-2.col-md-3.align-self-center.p-0
                 figure.mb-1
-                  img(src='@/assets/curso/tema1/tema1-4/icon4.svg', alt='Avatar', style="width:200px;").mx-auto
+                  img(src='@/assets/curso/tema1/tema1-4/img4.png', alt='Avatar', style="width:200px;").mx-auto
         
         .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
@@ -336,7 +337,7 @@
                 p.mb-0 Es recomendable que los ítems formulados sean factibles de cuantificarse de llevarse a una tabla o gráfico donde se pueda observar el comportamiento en detalle de esa variable investigada.
               .col-lg-2.col-md-3.align-self-center.p-0
                 figure.mb-1
-                  img(src='@/assets/curso/tema1/tema1-4/icon5.svg', alt='Avatar', style="width:200px;").mx-auto
+                  img(src='@/assets/curso/tema1/tema1-4/img5.png', alt='Avatar', style="width:200px;").mx-auto
         
         .row.justify-content-center.px-3.py-2.mb-3(style="background-color:#CBDEF4; border-radius:20px;")
           .col-lg-1.align-self-center.p-0
@@ -348,7 +349,7 @@
                 p.mb-0 En la recopilación de datos se debe seguir entre otros los siguientes pasos: la selección de la técnica, su diseño, su aplicación y la recopilación de la información, para finalmente procesar.
               .col-lg-2.col-md-3.align-self-center.p-0
                 figure.mb-1
-                  img(src='@/assets/curso/tema1/tema1-4/icon6.png', alt='Avatar', style="width:200px;").mx-auto
+                  img(src='@/assets/curso/tema1/tema1-4/img6.png', alt='Avatar', style="width:200px;").mx-auto
         
         
 
@@ -365,7 +366,7 @@
         .row.mb-4.px-5.justify-content-center
           .col-lg-4.mb-4
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/tema1/tema1-5/img1.svg', alt='tabulación', style="width: 400px;").mx-auto
+              img(src='@/assets/curso/tema1/tema1-5/img1.png', alt='tabulación', style="width: 400px;").mx-auto
           .col-lg-7.p-0
             h4.mb-4 Tabulación
             ul.lista-ul
@@ -427,8 +428,8 @@
               li 
                 i.fas.fa-pen-square
                 p.mb-0 Narraciones del investigador.
-            p.mb-4 Tener presente que se debe analizar cada dato (que por sí mismo tiene un valor), deducir similitudes y diferencias con otros datos y se organizarlos por categorías.
-            p.mb-4 De este análisis emergen descripciones, expresiones, temas, patrones, hipótesis y teorías, se establecerán los hallazgos que estarán fundamentas de acuerdo con las respuestas obtenidas.
+            p.mb-4 Tener presente que se debe analizar cada dato (que por sí mismo tiene un valor), deducir similitudes y diferencias con otros datos y organizarlos por categorías.
+            p.mb-4 De este análisis emergen descripciones, expresiones, temas, patrones, hipótesis y teorías, se establecerán los hallazgos que estarán fundamentados de acuerdo con las respuestas obtenidas.
       
       .py-3.py-md-4(titulo="Variables Cuantitativas Discretas")
         .row.justify-content-center.mt-5
