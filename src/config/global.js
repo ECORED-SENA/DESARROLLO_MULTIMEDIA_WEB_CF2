@@ -216,12 +216,12 @@ export default {
     {
       termino: 'Alcance',
       significado:
-        'Según Román Cabal (2016): La definición del alcance tiene como propósito describir y delimitar claramente las necesidades del cliente, las cuales pretenden ser cumplidas con el proyecto.',
+        'Según Román Cabal (2016): la definición del alcance tiene como propósito describir y delimitar claramente las necesidades del cliente, las cuales pretenden ser cumplidas con el proyecto.',
     },
     {
       termino: 'Bases de datos',
       significado:
-        'Según Absalón, Rivas y Cornejo (2021): Una base de datos es una colección organizada de información estructurada, o datos, típicamente almacenados electrónicamente en un sistema de computadora. Una base de datos es usualmente controlada por un sistema de gestión de base de datos (DBMS)',
+        'Según Absalón, Rivas y Cornejo (2021): una base de datos es una colección organizada de información estructurada, o datos, típicamente almacenados electrónicamente en un sistema de computadora. Una base de datos es usualmente controlada por un sistema de gestión de base de datos (DBMS)',
     },
     {
       termino: 'Diagrama de Gantt',
@@ -246,22 +246,22 @@ export default {
     {
       termino: 'Recursos',
       significado:
-        'Según Wrike (2021): Recursos son los distintos medios o ayuda que se utiliza para conseguir un fin o satisfacer una necesidad.',
+        'Según Wrike (2021): recursos son los distintos medios o ayuda que se utiliza para conseguir un fin o satisfacer una necesidad.',
     },
     {
       termino: 'Realidad Virtual',
       significado:
-        'Según Iberdrola (2021): La Realidad Virtual (RV) es un entorno de escenas y objetos de apariencia real —generado mediante tecnología informática— que crea en el usuario la sensación de estar inmerso en él. Dicho entorno se contempla a través de un dispositivo conocido como gafas o casco de Realidad Virtual.',
+        'Según Iberdrola (2021): la Realidad Virtual (RV) es un entorno de escenas y objetos de apariencia real —generado mediante tecnología informática— que crea en el usuario la sensación de estar inmerso en él. Dicho entorno se contempla a través de un dispositivo conocido como gafas o casco de Realidad Virtual.',
     },
     {
       termino: 'Requerimientos funcionales',
       significado:
-        'Según Tecnosferaadsi (2021): Los requerimientos funcionales son declaraciones de los servicios que proveerá el sistema, de la manera en que éste reacciona a entradas particulares. En algunos casos, los requerimientos funcionales de los sistemas también declaran explícitamente lo que el sistema no debe hacer.',
+        'Según Tecnosferaadsi (2021): los requerimientos funcionales son declaraciones de los servicios que proveerá el sistema, de la manera en que éste reacciona a entradas particulares. En algunos casos, los requerimientos funcionales de los sistemas también declaran explícitamente lo que el sistema no debe hacer.',
     },
     {
       termino: 'Requerimiento no funcional',
       significado:
-        'Según Tecnosferaadsi (2021): Requisitos no funcionales, son requisitos que imponen restricciones en el diseño o la implementación como restricciones en el diseño o Estándares de Calidad. Son propiedades o cualidades que el producto debe tener.',
+        'Según Tecnosferaadsi (2021): requisitos no funcionales, son requisitos que imponen restricciones en el diseño o la implementación como restricciones en el diseño o estándares de calidad. Son propiedades o cualidades que el producto debe tener.',
     },
     {
       termino: 'Post-its',
@@ -271,12 +271,12 @@ export default {
     {
       termino: 'Proyecto',
       significado:
-        'Según Fernández (2016): El proyecto es un conjunto coherente e integral de actividades, herramientas, recursos y prácticas coordinadas e interrelacionadas que buscan alcanzar unos objetivos específicos, utilizando una metodología definida, en un periodo de tiempo determinado, con unos insumos y costos definidos o previamente estimados. El cual busca mejorar una situación, solucionar una necesidad sentida o un problema existente.',
+        'Según Fernández (2016): el proyecto es un conjunto coherente e integral de actividades, herramientas, recursos y prácticas coordinadas e interrelacionadas que buscan alcanzar unos objetivos específicos, utilizando una metodología definida, en un periodo de tiempo determinado, con unos insumos y costos definidos o previamente estimados. El cual busca mejorar una situación, solucionar una necesidad sentida o un problema existente.',
     },
     {
       termino: 'Método Kanban',
       significado:
-        'Según Espinal, (2021): Método de administración de tareas y flujos de trabajos usado especialmente con las empresas que trabajan en desarrollo de softwares.',
+        'Según Espinal, (2021): método de administración de tareas y flujos de trabajos usado especialmente con las empresas que trabajan en desarrollo de softwares.',
     },
     {
       termino: 'Tipología',
@@ -451,7 +451,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Emily Bautista',
+        nombre: 'Emilsen Alfonso Bautista',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

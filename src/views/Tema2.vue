@@ -84,7 +84,7 @@
                 img(src='@/assets/curso/tema2/tema2-1/icon3.svg', alt='proyecto social', style="width:86px;").mx-auto
 
           h4.mb-5.text-center Proyecto <br> público o social
-          p.text-medium.text-center(style="margin-bottom: 3px;") Estos son proyectos que buscan generar un impacto social en determinado contexto o población, no necesariamente con fines económicos, por lo general cuentan con promotores como ONG, Empresa, Organismos multilaterales o el Estado, con un fin de agregar valor desde la perspectiva de responsabilidad social.
+          p.text-medium.text-center(style="margin-bottom: 3px;") Estos son proyectos que buscan generar un impacto social en determinado contexto o población, no necesariamente con fines económicos, por lo general cuentan con promotores como ONG, Empresas, Organismos multilaterales o el Estado, con un fin de agregar valor desde la perspectiva de responsabilidad social.
     
     
     .row.mb-5.justify-content-center
@@ -130,7 +130,7 @@
         .col-lg-9
           .bloque-texto-a__texto.p-4
             h4.mb-4(style="color: #FB8C00;") Proyectos educativos enfocados a proyectos multimedia
-            p En el escenario educativo, un proyecto implica el diseño y desarrollo de actividades organizadas y secuenciadas, las nuevas tendencias educativas implementan proyectos de uso multimedia, con el propósito de facilitar procesos de enseñanza y aprendizaje y hacer el uso de las Tecnologías de la Información y la Comunicación (TIC) se puede afirmar que un proyecto multimedia es una estrategia para diseñar un programa con diversas finalidades, que integran varios elementos como como: imágenes, texto, sonido, videos, animaciones e interactividad entre otros. Es importante manifestar que al momento de planear el proyecto se deben establecer los objetivos, un presupuesto y un tiempo determinado para su ejecución, como requerimiento principal se necesita tener claro el objetivo y las necesidades de los usuarios.
+            p En el escenario educativo, un proyecto implica el diseño y desarrollo de actividades organizadas y secuenciadas, las nuevas tendencias educativas implementan proyectos de uso multimedia, con el propósito de facilitar procesos de enseñanza y aprendizaje y hacer el uso de las Tecnologías de la Información y la Comunicación (TIC) se puede afirmar que un proyecto multimedia es una estrategia para diseñar un programa con diversas finalidades, que integran varios elementos como: imágenes, texto, sonido, videos, animaciones e interactividad entre otros. Es importante manifestar que al momento de planear el proyecto se deben establecer los objetivos, un presupuesto y un tiempo determinado para su ejecución, como requerimiento principal se necesita tener claro el objetivo y las necesidades de los usuarios.
             
         .col-lg-3.mb-4.mb-lg-0.align-self-center
           figure.mb-4
@@ -192,8 +192,8 @@
             .col-md-7.mb-4.mb-md-0
               p.mb-4 #[strong Paso 3:] 
                 b.span--acentoB el guión del material multimedia, 
-                b-none en esta fase se agrupan cada una de las pantallas y sus respectivos elementos, los contenidos y el cómo se puede presentar, la proyección de la ruta navegación (estructura general del programa y su manipulación) y el desarrollo final (elementos y acciones de cada pantalla que se utilizará, concretando los elementos principales de la multimedia). 
-              p Una vez realizado el guion se debe hacer la revisión y evaluación de los materiales, si algo no funciona se debe cambiar o corregir.
+                b-none en esta fase se agrupan cada una de las pantallas y sus respectivos elementos, los contenidos y el cómo se puede presentar, la proyección de la ruta navegación (estructura general del programa y su manipulación), y el desarrollo final (elementos y acciones de cada pantalla que se utilizará, concretando los elementos principales de la multimedia). 
+              p Una vez realizado el guión se debe hacer la revisión y evaluación de los materiales, si algo no funciona se debe cambiar o corregir.
           
             .col-md-5.align-self-center
               figure(data-aos='fade-left')
@@ -207,7 +207,7 @@
             .col-md-7.mb-4.mb-md-0
               p #[strong Paso 4:] 
                 b.span--acentoB realización, 
-                b-none con los contenidos del guión listos, el usuario podrá acceder a la propuesta del diseño de los elementos gráficos, para que la realización permite una manipulación adecuada es importante el software de programación y el equipamiento adecuado para su uso. 
+                b-none con los contenidos del guión listos, el usuario podrá acceder a la propuesta del diseño de los elementos gráficos, para que la realización permita una manipulación adecuada es importante el software de programación y el equipamiento adecuado para su uso. 
           
           .row
             .col-md-7.mb-4.mb-md-0
@@ -253,7 +253,7 @@
         .row.mb-4.px-5.justify-content-center
           .col-lg-12.mb-4.p-0
             h4.mb-4 Planificar la gestión de recursos
-            p.mb-4 Planificar la gestión Para una correcta planificación de la gestión de recursos se deben definir los requerimientos adecuadamente, estos son insumo para identificar qué clase de recursos se necesitan (humanos, tecnológicos “software”, rubros) y en qué cantidad, este proceso también permitirá la planeación de equipos de trabajo, la gestión de los recursos físicos, productos e investigación.
+            p.mb-4 Para una correcta planificación de la gestión de recursos se deben definir los requerimientos adecuadamente, estos son insumo para identificar qué clase de recursos se necesitan (humanos, tecnológicos “software”, rubros) y en qué cantidad, este proceso también permitirá la planeación de equipos de trabajo, la gestión de los recursos físicos, productos e investigación.
             p.mb-4 Los recursos pueden clasificarse en:
           
     .row.justify-content-center
@@ -317,7 +317,7 @@
           img(src='@/assets/curso/tema2/tema2-4/img1.png', alt='imagen que acompaña', style="width: 505px;").mx-auto
 
     .row.justify-content-center
-      .col-md-10.mb-4(data-aos='zoom-in')
+      .col-md-10.mb-4(data-aos='flip-right')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 1
@@ -325,7 +325,7 @@
             h4.mb-4 Nombre del Proyecto / Nombre del Cliente
             p En este paso se puede usar el nombre que ya tiene el proyecto para dar claridad a los receptores del informe de proyecto, es importante incluir la fecha de realización, esto con el fin de no truncar la información del informe con posteriores tareas similares a estas.
       
-      .col-md-10.mb-4(data-aos='zoom-in')
+      .col-md-10.mb-4(data-aos='flip-right')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 2
@@ -334,29 +334,29 @@
             p.mb-4 En esta etapa se muestra cual es el estado del proyecto si está en desarrollo, con algún aplazamiento, si presenta alguna novedad o en su defecto presenta una prórroga en su ejecución.
             p.mb-4 Aquí se pueden utilizar herramientas tecnológicas de gestión de proyectos las cuales permitan tener una información precisa del estado actual, y que por intermedio de un método de identificación el cual puede ser por colores (verde, en ejecución y al día; amarillo, con novedades e interrupciones; y rojo, con retraso). Muestre un panorama en tiempo real de cómo se encuentra el proceso.
             p Este ítem permite evidenciar y exponer próximas tareas y actividades del proyecto.
-      .col-md-10.mb-4(data-aos='zoom-in')
+      .col-md-10.mb-4(data-aos='flip-right')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 3
           .px-4
             h4.mb-4 Breve resumen del informe de estado del proyecto
             p En este paso se plantea realizar un resumen del informe de estado del proyecto el cual es importante que sea breve, el propósito de esta acción es brindar a los lectores, un escenario que resalta los puntos más relevantes del proyecto, alcances y metas.
-      .col-md-10.mb-4(data-aos='zoom-in')
+      .col-md-10.mb-4(data-aos='flip-right')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 4
           .px-4
             h4.mb-4 Determinar tareas claves para destacar en el informe del estado actual del proyecto
-            p.mb-4 En este paso se debe elegir acciones puntuales del proceso cronológicamente, estado actual y prospectiva, destacar las actividades cuáles pueden ser por semana, quincenal, mensual y trimestral; aquí se puede destacar un resultado o logro importante en la etapa de ejecución.
+            p.mb-4 En este paso se debe elegir acciones puntuales del proceso cronológicamente, estado actual y prospectiva, destacar las actividades, cuáles pueden ser por semana, quincenal, mensual y trimestral; aquí se puede destacar un resultado o logro importante en la etapa de ejecución.
             p En este punto es donde se puede prever cualquier problema que obstaculice la ejecución del proyecto.
-      .col-md-10.mb-4(data-aos='zoom-in')
+      .col-md-10.mb-4(data-aos='flip-right')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 5
           .px-4
             h4.mb-4 Facilitar los enlaces de indagación y búsqueda o documentos soporte de investigación
             p Es necesario que todo informe de proyecto esté respaldado por un marco de referencia específico, el cual sea escrito (documental, bibliográfico), o con base en lo expresado por personas consultadas o por datos extraídos de una realidad que ha sido investigada mediante un método y unas técnicas suficientemente confiables.
-      .col-md-10.mb-4(data-aos='zoom-in')
+      .col-md-10.mb-4(data-aos='flip-right')
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 6
@@ -379,7 +379,7 @@
         p.mb-4 Es importante reconocer cuáles son las plataformas o software para optimizar la gestión del proyecto a ejecutar, estas herramientas proporcionan la estructura, la flexibilidad y el control necesario de las actividades del proyecto y del recurso humano (equipo de trabajo) para alcanzar resultados extraordinarios a tiempo y dentro del presupuesto.
         p.mb-4 Teniendo en cuenta esto, dichas herramientas facilitan una gestión eficiente del proyecto y sus etapas de intervención inicio, planificación, ejecución, control y fin, un software de gestión de proyectos tiene la capacidad de planificar, organizar, gestionar los recursos, llevar el avance y seguimiento de estos, además de disminuir los tiempos.
         .bloqueTexto-cH.squareBottomRight
-          p En el siguiente recurso de aprendizaje, podrás visualizar las plataformas para gestión de proyectos más reconocidas el mercado, que aporta resultados de optimización en el campo empresarial, productivo, microempresarial y educativo:
+          p En el siguiente recurso de aprendizaje, podrás visualizar las plataformas para gestión de proyectos más reconocidas del mercado, que aporta resultados de optimización en el campo empresarial, productivo, microempresarial y educativo:
 
 
     .tarjeta.tarjeta--azul2.p-4.mb-5
