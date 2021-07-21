@@ -211,7 +211,7 @@ export default {
     {
       termino: 'Acta',
       significado:
-        'Documento que durante una reunión es escrito por una persona presente en la misma, y a través de la cual se registran a que sus temas que han sido tratados, como así también las conclusiones o acuerdos que han resultado adoptados luego de dicha reunión. (Definición, s.f.)',
+        'Documento que durante una reunión es escrito por una persona presente en la misma, y a través de la cual se registran aquellos temas que han sido tratados, como también las conclusiones o acuerdos que han resultado adoptados luego de dicha reunión. (Definición, s.f.)',
     },
     {
       termino: 'Alcance',

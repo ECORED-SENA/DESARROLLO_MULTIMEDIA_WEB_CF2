@@ -74,7 +74,7 @@
                 img(src='@/assets/curso/tema2/tema2-1/icon2.svg', alt='productivo productivo', style="width:86px;").mx-auto
 
           h4.mb-5.text-center Proyecto <br> productivo
-          p.text-medium.text-center(style="margin-bottom:50px;") Estos son proyectos que buscan ser viables y generar rentabilidad económica con el fin de obtener ganancias. Por lo general quienes generan estos proyectos son empresa o particulares que están interesados en lograr beneficios económicos.
+          p.text-medium.text-center(style="margin-bottom:50px;") Estos son proyectos que buscan ser viables y generar rentabilidad económica con el fin de obtener ganancias. Por lo general quienes generan estos proyectos son empresas o particulares que están interesados en lograr beneficios económicos.
       
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
