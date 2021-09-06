@@ -148,10 +148,10 @@
           .row.justify-content-center(titulo="Diseño")
             .col-md-10.mb-4.mb-md-0
               p En esta etapa se revisan las opciones, tácticas y estrategias que pueden conducir al logro de los objetivos del proyecto, en esta se evalúa la factibilidad del proyecto, su relevancia y sus necesidades puntuales.
-          .row.justify-content-center(titulo="Diseño")
+          .row.justify-content-center(titulo="Ejecución")
             .col-md-10.mb-4.mb-md-0
               p En esta se da marcha al proyecto y a todo lo establecido para lograr los objetivos en el tiempo establecido.
-          .row.justify-content-center(titulo="Diseño")
+          .row.justify-content-center(titulo="Evaluación")
             .col-md-10.mb-4.mb-md-0
               p En esta etapa se revisan los resultados del proyecto tras su ejecución. Es una etapa de control y de información, sustentada en la idea del mejoramiento y acumulación de factores de éxito a lo largo del tiempo.
       .col-lg-5.align-self-center
