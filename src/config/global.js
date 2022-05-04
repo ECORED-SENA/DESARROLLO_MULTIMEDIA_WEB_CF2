@@ -169,7 +169,7 @@ export default {
     },
     {
       referencia: 'Iberdrola. (2021). Realidad virtual. Iberdrola.',
-      link: 'https://www.iberdrola.com/',
+      link: 'https://www.iberdrola.com/innovacion/realidad-virtual',
     },
     {
       referencia:
@@ -317,7 +317,7 @@ export default {
     },
     {
       texto:
-        'Ffbonta. (2016, 26 de julio). Ejemplos de Instrumentos de Recolección de Datos. YouTube. ',
+        'Ffbonta. (2016, 26 de julio). Instrumentos o Formatos de Recolección de Datos : Técnicas de Observación - Encuesta - Entrevista. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hv9yuPDTSss',
     },
